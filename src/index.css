@@ -1,0 +1,74 @@
+body{
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: #1f7a4d;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 5px 20px;
+  box-shadow: 0px 1px 3px 0px white;
+}
+header img{
+  height: 150px;
+}
+h1{
+  font-size: 3rem;
+}
+
+main{
+  background-color: #E8F3EC;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+main form{
+  display: flex;
+  width: 80%;
+}
+main input{
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  padding: 0 15px;
+  font-size: 1.2rem;
+  background-color: #A8D5BA;
+  transition: all 0.3s ease;
+  flex-grow: 5;
+  min-width: 300px;
+}
+main input:focus{
+  outline: none;
+  box-shadow: rgb(145, 255, 125) 0 0 10px;
+}
+.addButton{
+  height: 40px;
+  font-family: 'Inter', sans-serif;
+  border-radius: 8px;
+  border: none;
+  background-color: #F2C94C;
+  color: white;
+  font-size: 1.2rem;
+  margin-left: 10px;
+  padding: 0 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  flex-grow: 1;
+  min-width: 165px;
+} 
+.addButton:hover {
+  background-color: #f1d47a;
+  color: white;
+}
+.addButton:focus {
+  background-color: white;
+  color: #F2C94C;
+}
